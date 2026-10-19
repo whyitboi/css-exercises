@@ -27,13 +27,13 @@ ul.dropdown-menu li:hover {
 
 .visible {
   display: block;
-  animation: drop-down 2s ease-out;
+  animation: drop-down 600ms ease-out;
 }
 @keyframes drop-down {
   from {
     transform: scaleY(0);
   }
-  90% {
+  80% {
     transform: scaleY(1.09);
   }
 
